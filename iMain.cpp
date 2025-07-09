@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include <ctime>
 #include <cstring>
-
 #define SCREEN_WIDTH 1344
 #define SCREEN_HEIGHT 760
 
