@@ -102,7 +102,8 @@ void iDraw() {
         iText(SCREEN_WIDTH - 200, 740, scoreStr, GLUT_BITMAP_HELVETICA_12);
     }
 
-    if (health <= 0 || fuel <= 0) {
+    if (health <= 0 || fuel <= 0)
+    {
     isPaused = true;
     PlaySound("missionpass.wav", NULL, SND_ASYNC);
     iSetColor(255, 0, 0);
